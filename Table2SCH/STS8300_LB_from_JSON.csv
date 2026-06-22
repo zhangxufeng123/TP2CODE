@@ -1,0 +1,26 @@
+# ====== PROJECT SETUP METADATA ======
+project_name,STS8300_LB_from_JSON
+site_num,4
+schema_version,1.0
+default_package,0603
+default_voltage,50V
+default_tolerance,1%
+ate_platform,STS8300_A28D4
+component_overrides,"{'SOCKET_PATH': 'Sch_lib/sockets/JW_Contator.kicad_sym', 'SOCKET_NAME': 'FTD_PP_25C_DFN4X4X0.75-10'}"
+Hardware Config,Sch_lib/platforms/sts8300_slot.xlsx
+
+# ====== PIN MAPPING ======
+Display Pin,Hidden F/S Mapping,Logical Net,Resource Types,Channel Allocations,Connect Type,Active Circuits,Passive Circuits (Parsed),Params
+1F/S (VDD),"{'F':'1F','S':'1S'}",VDD,ACM200,Site1(ACM200[S1_CH0]) | Site2(ACM200[S5_CH0]) | Site3(ACM200[S9_CH0]) | Site4(ACM200[S13_CH0]),NC,,{PASSIVES:[]},"{""ACM200"":{""GROUP_ID"":""ACM200_G1""},"""":{""GROUP_ID"":""CR_Group1"",""VCC_NET"":""+5V_VDD""}}"
+2F/S (NC),"{'F':'2F','S':'2S'}",NC,ACM200,Site1(ACM200[S2_CH0]) | Site2(ACM200[S6_CH0]) | Site3(ACM200[S10_CH0]) | Site4(ACM200[S14_CH0]),Kelvin,ChargeRelease,{PASSIVES:[]},"{""ACM200"":{""GROUP_ID"":""ACM200_G2""},""ChargeRelease"":{""GROUP_ID"":""CR_Group2"",""VCC_NET"":""+5V_VDD""}}"
+3F/S (HB),"{'F':'3F','S':'3S'}",HB,FXVIe,Site1(FXVIe[S3_CH0]) | Site2(FXVIe[S7_CH0]) | Site3(FXVIe[S11_CH0]) | Site4(FXVIe[S15_CH0]),NC,,"{PASSIVES:[{'part':'C','value':'470nF','pins':['HB', 'HS']},{'part':'C','value':'100nF','pins':['HB', 'HS']},{'part':'C','value':'100nF','pins':['HB', 'HS']},{'part':'C','value':'100nF','pins':['HB', 'HS']},{'part':'C','value':'100nF','pins':['HB', 'HS']}]}","{""FXVIe"":{""GROUP_ID"":""FXVIe_G3""},"""":{""GROUP_ID"":""CR_Group3"",""VCC_NET"":""+5V_VDD""}}"
+4F/S (HO),"{'F':'4F','S':'4S'}",HO,FXVIe,Site1(FXVIe[S4_CH0]) | Site2(FXVIe[S8_CH0]) | Site3(FXVIe[S12_CH0]) | Site4(FXVIe[S16_CH0]),NC,,"{PASSIVES:[{'part':'C','value':'1nF','pins':['HO', 'HS']},{'part':'C','value':'1nF','pins':['HO', 'HS']},{'part':'C','value':'1nF','pins':['HO', 'HS']},{'part':'C','value':'1nF','pins':['HO', 'HS']},{'part':'C','value':'1nF','pins':['HO', 'HS']},{'part':'C','value':'1nF','pins':['HO', 'HS']}]}","{""FXVIe"":{""GROUP_ID"":""FXVIe_G4""},"""":{""GROUP_ID"":""CR_Group4"",""VCC_NET"":""+5V_VDD""}}"
+5F/S (HS),"{'F':'5F','S':'5S'}",HS,FXVIe,Site1(FXVIe[S5_CH0]) | Site2(FXVIe[S9_CH0]) | Site3(FXVIe[S13_CH0]) | Site4(FXVIe[S17_CH0]),NC,,"{PASSIVES:[{'part':'C','value':'470nF','pins':['HB', 'HS']},{'part':'C','value':'100nF','pins':['HB', 'HS']},{'part':'C','value':'1nF','pins':['HO', 'HS']},{'part':'C','value':'100nF','pins':['HB', 'HS']},{'part':'C','value':'1nF','pins':['HO', 'HS']},{'part':'C','value':'100nF','pins':['HB', 'HS']},{'part':'C','value':'1nF','pins':['HO', 'HS']},{'part':'C','value':'100nF','pins':['HB', 'HS']},{'part':'C','value':'1nF','pins':['HO', 'HS']},{'part':'C','value':'1nF','pins':['HO', 'HS']},{'part':'C','value':'1nF','pins':['HO', 'HS']}]}","{""FXVIe"":{""GROUP_ID"":""FXVIe_G5""},"""":{""GROUP_ID"":""CR_Group5"",""VCC_NET"":""+5V_VDD""}}"
+6F/S (EN),"{'F':'6F','S':'6S'}",EN,FXVIe,Site1(FXVIe[S6_CH0]) | Site2(FXVIe[S10_CH0]) | Site3(FXVIe[S14_CH0]) | Site4(FXVIe[S18_CH0]),Kelvin,ChargeRelease,{PASSIVES:[]},"{""FXVIe"":{""GROUP_ID"":""FXVIe_G6""},""ChargeRelease"":{""GROUP_ID"":""CR_Group6"",""VCC_NET"":""+5V_VDD""}}"
+7F/S (HI),"{'F':'7F','S':'7S'}",HI,FXVIe,Site1(FXVIe[S7_CH0]) | Site2(FXVIe[S11_CH0]) | Site3(FXVIe[S15_CH0]) | Site4(FXVIe[S19_CH0]),Kelvin,ChargeRelease,{PASSIVES:[]},"{""FXVIe"":{""GROUP_ID"":""FXVIe_G7""},""ChargeRelease"":{""GROUP_ID"":""CR_Group7"",""VCC_NET"":""+5V_VDD""}}"
+8F/S (LI),"{'F':'8F','S':'8S'}",LI,FXVIe,Site1(FXVIe[S8_CH0]) | Site2(FXVIe[S12_CH0]) | Site3(FXVIe[S16_CH0]) | Site4(FXVIe[S20_CH0]),Kelvin,ChargeRelease,{PASSIVES:[]},"{""FXVIe"":{""GROUP_ID"":""FXVIe_G8""},""ChargeRelease"":{""GROUP_ID"":""CR_Group8"",""VCC_NET"":""+5V_VDD""}}"
+9F/S (VSS),"{'F':'9F','S':'9S'}",VSS,FXVIe,Site1(FXVIe[S9_CH0]) | Site2(FXVIe[S13_CH0]) | Site3(FXVIe[S17_CH0]) | Site4(FXVIe[S21_CH0]),NC,,"{PASSIVES:[{'part':'C','value':'1nF','pins':['LO', 'VSS']},{'part':'C','value':'1nF','pins':['LO', 'VSS']},{'part':'C','value':'1nF','pins':['LO', 'VSS']},{'part':'C','value':'1nF','pins':['LO', 'VSS']},{'part':'C','value':'1nF','pins':['LO', 'VSS']},{'part':'C','value':'1nF','pins':['LO', 'VSS']}]}","{""FXVIe"":{""GROUP_ID"":""FXVIe_G9""},"""":{""GROUP_ID"":""CR_Group9"",""VCC_NET"":""+5V_VDD""}}"
+10F/S (LO),"{'F':'10F','S':'10S'}",LO,FXVIe,Site1(FXVIe[S10_CH0]) | Site2(FXVIe[S14_CH0]) | Site3(FXVIe[S18_CH0]) | Site4(FXVIe[S22_CH0]),NC,,"{PASSIVES:[{'part':'C','value':'1nF','pins':['LO', 'VSS']},{'part':'C','value':'1nF','pins':['LO', 'VSS']},{'part':'C','value':'1nF','pins':['LO', 'VSS']},{'part':'C','value':'1nF','pins':['LO', 'VSS']},{'part':'C','value':'1nF','pins':['LO', 'VSS']},{'part':'C','value':'1nF','pins':['LO', 'VSS']}]}","{""FXVIe"":{""GROUP_ID"":""FXVIe_G10""},"""":{""GROUP_ID"":""CR_Group10"",""VCC_NET"":""+5V_VDD""}}"
+
+# ====== PARAM DICTIONARY TEMPLATE ======
+Module_Category,Module_Name,Parameter_Key,Input_Type,Description,Example_Placeholder

@@ -1,0 +1,14 @@
+# 忽略 Python 虚拟环境
+.venv/
+venv/
+ENV/
+
+# 忽略缓存和编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略本地 IDE 配置
+.vscode/
+.idea/

@@ -1,0 +1,15 @@
+Pin,Force_V_Max,Force_I_Max,Is_Float,MT_PIN_Pair,passive_device
+VDD,20V,100uA,Yes,-,-
+NC,-,-,-,-,-
+HB,115V,100uA,Yes,-,-
+HO,20V,100mA,Yes,EN-HO | HI-HO | HO-HO,-
+HS,120V,100uA,Yes,-,-
+EN,20V,100uA,-,EN-HO | EN-LO,-
+HI,20V,100uA,-,HI-HO,-
+LI,20V,100uA,-,LI-LO,-
+VSS,-,-,Yes,-,-
+LO,20V,100mA,Yes,EN-LO | LI-LO | LO-LO,-
+Passive_Comp,-,-,-,-,"{part:'C', value:'100nF', pins:['HB', 'HS']}"
+Passive_Comp,-,-,-,-,"{part:'C', value:'1nF', pins:['HO', 'HS']}"
+Passive_Comp,-,-,-,-,"{part:'C', value:'1nF', pins:['LO', 'VSS']}"
+Passive_Comp,-,-,-,-,"{part:'C', value:'470nF', pins:['HB', 'HS']}"

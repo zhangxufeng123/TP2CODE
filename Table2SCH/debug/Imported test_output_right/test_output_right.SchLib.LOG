@@ -1,0 +1,80 @@
+Importer Log Report
+Document: C:\Users\11271\Desktop\Table2SCH\debug\test_output_right.kicad_sch
+    Section : Loading Schematic - C:\Users\11271\Desktop\Table2SCH\debug\test_output_right.kicad_sch
+        Warning: Unknown child generator_version of kicad_sch.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child embedded_fonts of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child embedded_fonts of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child embedded_fonts of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child embedded_fonts of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child embedded_fonts of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child embedded_fonts of kicad_sch.
+    EndSection
+    Section : Loading Schematic - C:\Users\11271\Desktop\Table2SCH\debug\test_output_right.kicad_sch
+        Warning: Unknown child generator_version of kicad_sch.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child embedded_fonts of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child embedded_fonts of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child embedded_fonts of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child embedded_fonts of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child embedded_fonts of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child embedded_fonts of kicad_sch.
+    EndSection
+    Section : Import Document - C:\Users\11271\Desktop\Table2SCH\debug\Imported test_output_right\test_output_right.kicad_sch.SchDoc
+        Warning: Cannot create VCC Power Object because correct position of KiCadLib.SCH.SchCmpInstance cannot be calculated.
+        Warning: Cannot import component: KiCadLib.SCH.SchCmpInstance
+        Warning: Cannot create VCC Power Object because correct position of KiCadLib.SCH.SchCmpInstance cannot be calculated.
+        Warning: Cannot import component: KiCadLib.SCH.SchCmpInstance
+    EndSection

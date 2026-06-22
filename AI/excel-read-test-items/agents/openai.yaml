@@ -1,0 +1,7 @@
+interface:
+  display_name: "Excel Test Items"
+  short_description: "Extract test items and PIN values from test-plan workbooks."
+  default_prompt: "Use $excel-read-test-items to read a test-plan Excel workbook, find the FT Test Plan or Final test plan worksheet, and extract Test Name, Test Method, Unit, and valid PIN columns for each test item."
+
+policy:
+  allow_implicit_invocation: true

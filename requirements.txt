@@ -1,0 +1,7 @@
+manim==0.20.1
+manim_voiceover==0.4.0
+pandas==3.0.3
+pydantic==2.13.4
+PyQt5==5.15.11
+PyYAML==6.0.3
+skidl==2.2.3

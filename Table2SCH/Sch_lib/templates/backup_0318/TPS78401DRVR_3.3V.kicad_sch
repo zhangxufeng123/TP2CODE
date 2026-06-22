@@ -1,0 +1,1721 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "20895e6e-7f94-43f0-9eca-30600a506dfc")
+	(paper "A1")
+	(lib_symbols
+		(symbol "JW_Component:CAP_SM_0805_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.912 2.388 0)
+				(effects
+					(font
+						(size 1.6256 1.6256)
+					)
+				)
+			)
+			(property "Value" "${VALUE}"
+				(at 20.32 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "CAP_SM_0805_1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V 5% SMD 0805 NP0 Ceramic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CAP_SM_0805_1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAP_SM_0805_1_1_0"
+				(polyline
+					(pts
+						(xy 3.505 1.905) (xy 3.505 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.505 0) (xy 2.565 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.115 1.88) (xy 4.115 -0.025)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.115 -0.025) (xy 4.115 -1.93)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.105 0) (xy 4.14 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JW_Component:R_SM_0805_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.54 1.016 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+				)
+			)
+			(property "Value" "${VALUE}"
+				(at -5.334 1.016 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "R_SM_0805_1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1/8W  1% SMD 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*R_SM_0805_1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_SM_0805_1_1_0"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0) (xy 1.524 0) (xy 1.524 0) (xy 1.524 0) (xy 1.27 -0.508) (xy 1.27 -0.508)
+						(xy 1.27 -0.508) (xy 1.27 -0.508) (xy 0.762 0.508) (xy 0.762 0.508) (xy 0.762 0.508) (xy 0.762 0.508)
+						(xy 0.254 -0.508) (xy 0.254 -0.508) (xy 0.254 -0.508) (xy 0.254 -0.508) (xy -0.254 0.508) (xy -0.254 0.508)
+						(xy -0.254 0.508) (xy -0.254 0.508) (xy -0.762 -0.508) (xy -0.762 -0.508) (xy -0.762 -0.508) (xy -0.762 -0.508)
+						(xy -1.27 0.508) (xy -1.27 0.508) (xy -1.27 0.508) (xy -1.27 0.508) (xy -1.524 0) (xy -1.524 0)
+						(xy -1.524 0) (xy -1.524 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JW_Component:TPS78401DBVR_SOT-23-5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 10.16 7.62 0)
+				(effects
+					(font
+						(size 1.6256 1.6256)
+					)
+				)
+			)
+			(property "Value" "TPS78401DBVR_SOT-23-5"
+				(at 12.7 -17.78 0)
+				(effects
+					(font
+						(size 1.6256 1.6256)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "TPS78401DBVR_SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "线性稳压器(LDO)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TPS78401DBVR_SOT-23-5*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS78401DBVR_SOT-23-5_1_0"
+				(polyline
+					(pts
+						(xy -10.16 10.16) (xy -10.16 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 10.16) (xy -1.27 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -10.16) (xy 10.16 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 10.16)
+					(mid 0 8.89)
+					(end -1.27 10.16)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 10.16) (xy 10.16 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 10.16 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 417.83 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08bacfce-19df-43d2-88d8-0cc7c8baf01e")
+	)
+	(junction
+		(at 335.28 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12f70bc9-0f8b-4643-9709-43903e156f34")
+	)
+	(junction
+		(at 359.41 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30a91697-83c8-489d-9c01-e58d6b6cea23")
+	)
+	(junction
+		(at 369.57 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40571acb-e851-46b9-84c4-76767aa17813")
+	)
+	(junction
+		(at 434.34 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47262593-6df1-4616-936b-e8835ba34b30")
+	)
+	(junction
+		(at 434.34 271.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6195226f-5d47-449d-abbf-53bce5b5662e")
+	)
+	(junction
+		(at 359.41 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71b84e22-8f43-4721-aaf8-d44c8ae2fe54")
+	)
+	(junction
+		(at 417.83 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b489c7a7-3142-421e-af35-26cd9e53b518")
+	)
+	(junction
+		(at 424.18 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d15ce89c-a0de-424b-b84e-2a36109095ce")
+	)
+	(junction
+		(at 349.25 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df6b3302-e792-4475-b247-0f1a8ffc49f9")
+	)
+	(junction
+		(at 349.25 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7d9b7b7-9eee-483b-9e35-88a92f0eb5ee")
+	)
+	(junction
+		(at 369.57 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9ff17ed-b3df-4d18-ac05-8542aabde590")
+	)
+	(wire
+		(pts
+			(xy 424.18 251.46) (xy 424.18 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0298082b-a5d5-4e7d-8f75-e97c18befb89")
+	)
+	(wire
+		(pts
+			(xy 359.41 255.27) (xy 359.41 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a07bdc-691a-4775-a2a8-0aeab2cdf0ac")
+	)
+	(wire
+		(pts
+			(xy 349.25 238.76) (xy 359.41 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e10257e-cacf-40f3-b1ca-deb32e35019f")
+	)
+	(wire
+		(pts
+			(xy 412.75 250.19) (xy 417.83 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e4e88c-f479-42f4-9be4-1a6e743f9d1a")
+	)
+	(wire
+		(pts
+			(xy 434.34 264.16) (xy 434.34 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0c171a-98b4-476d-a950-77261263cb7e")
+	)
+	(wire
+		(pts
+			(xy 377.19 250.19) (xy 377.19 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223eee65-82db-47b0-b27d-9cc13fb5e0af")
+	)
+	(wire
+		(pts
+			(xy 434.34 238.76) (xy 434.34 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da58a76-dd47-4338-9c27-57408cd24e7c")
+	)
+	(wire
+		(pts
+			(xy 349.25 255.27) (xy 349.25 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307341df-e883-4b37-96f1-59d4010f1ebc")
+	)
+	(wire
+		(pts
+			(xy 335.28 260.35) (xy 335.28 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3089753c-f641-4b52-b22f-e87d8f57447f")
+	)
+	(wire
+		(pts
+			(xy 359.41 243.84) (xy 359.41 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391b8b85-01c9-4dd7-b927-8cc5f5f103b6")
+	)
+	(wire
+		(pts
+			(xy 359.41 255.27) (xy 349.25 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a84d676-77ca-48c8-9c78-cbd67ef1f23e")
+	)
+	(wire
+		(pts
+			(xy 369.57 243.84) (xy 369.57 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3acb1e42-0495-40b5-bbd8-c8cc6c53825b")
+	)
+	(wire
+		(pts
+			(xy 369.57 238.76) (xy 359.41 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2e820c-60f8-4342-bb57-124143fcdec5")
+	)
+	(wire
+		(pts
+			(xy 424.18 250.19) (xy 417.83 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415508c8-98e9-4c8d-a132-15023ebfa0df")
+	)
+	(wire
+		(pts
+			(xy 424.18 260.35) (xy 417.83 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449c4ae8-09a4-4494-8b25-07739a33b27d")
+	)
+	(wire
+		(pts
+			(xy 434.34 271.78) (xy 440.69 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a95d8e6-c38d-48c8-b3f1-0f21011a3663")
+	)
+	(wire
+		(pts
+			(xy 335.28 238.76) (xy 349.25 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50df0ffe-3520-4c13-98ae-8372efffafb9")
+	)
+	(wire
+		(pts
+			(xy 434.34 248.92) (xy 434.34 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c0ab52-9b03-4888-b5ff-e981fd07b1e3")
+	)
+	(wire
+		(pts
+			(xy 369.57 255.27) (xy 369.57 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3efa23-c5ed-413c-8142-7aff0be42576")
+	)
+	(wire
+		(pts
+			(xy 349.25 255.27) (xy 346.71 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa0e1ba-3dcd-4283-84a8-415692e42c52")
+	)
+	(wire
+		(pts
+			(xy 434.34 271.78) (xy 417.83 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646f7aa6-eef3-4c72-8b4a-c0a9ef180caf")
+	)
+	(wire
+		(pts
+			(xy 424.18 250.19) (xy 434.34 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cae1905-dcc2-4ca3-a4cf-38f7ccbcd873")
+	)
+	(wire
+		(pts
+			(xy 369.57 255.27) (xy 359.41 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825b095c-8c79-496b-b370-55fbf2de5688")
+	)
+	(wire
+		(pts
+			(xy 412.75 260.35) (xy 417.83 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895d56e6-90aa-4170-80d0-a286cb920ce2")
+	)
+	(wire
+		(pts
+			(xy 349.25 238.76) (xy 349.25 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa3aad1-a237-42a7-ae83-a9d47571ddd5")
+	)
+	(wire
+		(pts
+			(xy 377.19 238.76) (xy 369.57 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7ca91b-96f8-4c4b-a488-2f68e9bff27c")
+	)
+	(wire
+		(pts
+			(xy 417.83 260.35) (xy 417.83 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949bed41-5ad5-4161-91bc-a24167dfb5a0")
+	)
+	(wire
+		(pts
+			(xy 434.34 237.49) (xy 425.45 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b3044b-8ae5-4582-ad19-1442c8dd4368")
+	)
+	(wire
+		(pts
+			(xy 382.27 250.19) (xy 377.19 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95eba5b7-ba96-4e1b-8af2-23893e60e03f")
+	)
+	(wire
+		(pts
+			(xy 330.2 238.76) (xy 335.28 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e1ac07-3444-4ba0-be9b-ee4db612f0ec")
+	)
+	(wire
+		(pts
+			(xy 370.84 260.35) (xy 382.27 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39c30e5-53a9-4ec3-ac9c-21ff2c647a73")
+	)
+	(wire
+		(pts
+			(xy 434.34 250.19) (xy 434.34 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc9f398-dba4-466a-be50-3ccc358d815c")
+	)
+	(wire
+		(pts
+			(xy 369.57 255.27) (xy 382.27 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22b2fd5-765f-45b4-9ed5-3d8451420dd4")
+	)
+	(wire
+		(pts
+			(xy 424.18 259.08) (xy 424.18 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1471819-e000-4c4c-93af-ce8b81f76570")
+	)
+	(wire
+		(pts
+			(xy 360.68 260.35) (xy 335.28 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1d97c1-2897-46b1-9fa6-945f5c2ca7ec")
+	)
+	(global_label "@OUTPUT_+3.3V@"
+		(shape input)
+		(at 425.45 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08cf8e80-d8b2-4bbd-af7b-03edb98adf3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 405.3499 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "@INPUT_+5V@"
+		(shape input)
+		(at 330.2 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35adeaca-1a3b-4b7f-bfb2-17b8b3827617")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.6075 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "@FL@"
+		(shape input)
+		(at 346.71 255.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "526d5716-8d08-4b6a-825c-cf14992417e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 338.3423 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "@FL@"
+		(shape input)
+		(at 440.69 271.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddbb63f8-d9ac-4fec-9dff-5833ea6f4263")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 449.0577 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JW_Component:TPS78401DBVR_SOT-23-5")
+		(at 397.51 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07626db3-28f1-4e55-bde7-06e2516ba459")
+		(property "Reference" "@U1@"
+			(at 397.256 252.984 0)
+			(effects
+				(font
+					(size 1.6256 1.6256)
+				)
+			)
+		)
+		(property "Value" "TPS78401DBVR_SOT-23-5"
+			(at 397.51 242.57 0)
+			(effects
+				(font
+					(size 1.6256 1.6256)
+				)
+			)
+		)
+		(property "Footprint" "TPS78401DBVR_SOT-23-5"
+			(at 397.51 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 397.51 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "线性稳压器(LDO)"
+			(at 397.51 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9a7cffce-c793-444d-a194-6255fd5b87ba")
+		)
+		(pin "1"
+			(uuid "d93e6224-b95f-4e1b-973e-3dc5b082bebd")
+		)
+		(pin "2"
+			(uuid "0cd362da-1016-4010-8143-f08f0e39bd17")
+		)
+		(pin "5"
+			(uuid "2ac0de1e-336e-439d-9b22-e2fa8c111da1")
+		)
+		(pin "4"
+			(uuid "e257c77e-5c77-48ee-bf44-89f2144a218e")
+		)
+		(instances
+			(project ""
+				(path "/20895e6e-7f94-43f0-9eca-30600a506dfc"
+					(reference "@U1@")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JW_Component:R_SM_0805_1")
+		(at 417.83 266.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13c1a9be-5f54-49c4-a3a1-647a44073bd0")
+		(property "Reference" "@R3@"
+			(at 420.624 266.446 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Value" "@100k@"
+			(at 415.29 266.7 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Footprint" "R_SM_0805_1"
+			(at 417.83 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/8W  1% SMD 0805"
+			(at 417.83 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1568d81-7495-48bb-a933-89911745f371")
+		)
+		(pin "1"
+			(uuid "174e7688-9923-4198-bd26-eff459841a9f")
+		)
+		(instances
+			(project "TPS78401DRVR_3.3V"
+				(path "/20895e6e-7f94-43f0-9eca-30600a506dfc"
+					(reference "@R3@")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JW_Component:CAP_SM_0805_1")
+		(at 424.18 251.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "165e4668-fc76-416d-aa66-986901cbad71")
+		(property "Reference" "@C3@"
+			(at 429.006 257.81 90)
+			(effects
+				(font
+					(size 1.6256 1.6256)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "@100nF@"
+			(at 433.578 252.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAP_SM_0805_1"
+			(at 424.18 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 424.18 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 5% SMD 0805 NP0 Ceramic"
+			(at 424.18 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eaa08eed-9842-4c0f-a44a-dc881436fe4e")
+		)
+		(pin "1"
+			(uuid "3d2434c2-3593-43d3-b929-3811881a42dd")
+		)
+		(instances
+			(project "TPS78401DRVR_3.3V"
+				(path "/20895e6e-7f94-43f0-9eca-30600a506dfc"
+					(reference "@C3@")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JW_Component:R_SM_0805_1")
+		(at 417.83 255.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17391eba-bfb5-4561-9b7b-6d790c693659")
+		(property "Reference" "@R4@"
+			(at 420.116 255.778 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Value" "@175k@"
+			(at 415.29 255.27 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Footprint" "R_SM_0805_1"
+			(at 417.83 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/8W  1% SMD 0805"
+			(at 417.83 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f756a43c-d5df-4d45-9547-8f64e035a67f")
+		)
+		(pin "1"
+			(uuid "90e09316-63a4-4ec3-a5ae-1f24f60bc16f")
+		)
+		(instances
+			(project "TPS78401DRVR_3.3V"
+				(path "/20895e6e-7f94-43f0-9eca-30600a506dfc"
+					(reference "@R4@")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JW_Component:CAP_SM_0805_1")
+		(at 359.41 243.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ae874dc-271d-42dc-844f-04b1fa1315cf")
+		(property "Reference" "@C2@"
+			(at 357.632 249.428 90)
+			(effects
+				(font
+					(size 1.6256 1.6256)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "@100nF@"
+			(at 358.648 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAP_SM_0805_1"
+			(at 359.41 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 5% SMD 0805 NP0 Ceramic"
+			(at 359.41 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9406772-9da6-41c3-b6aa-4ef8f8e06c53")
+		)
+		(pin "1"
+			(uuid "890480a4-c613-464b-8d04-2439c3a0c4e6")
+		)
+		(instances
+			(project "TPS78401DRVR_3.3V"
+				(path "/20895e6e-7f94-43f0-9eca-30600a506dfc"
+					(reference "@C2@")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JW_Component:CAP_SM_0805_1")
+		(at 434.34 256.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3860063f-5c12-4cdf-8273-98530804e3c1")
+		(property "Reference" "@C4@"
+			(at 443.484 262.636 90)
+			(effects
+				(font
+					(size 1.6256 1.6256)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "@10uF@"
+			(at 443.23 257.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAP_SM_0805_1"
+			(at 434.34 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 434.34 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 5% SMD 0805 NP0 Ceramic"
+			(at 434.34 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5af1ec0-e1ee-446e-be67-227c907fffd2")
+		)
+		(pin "1"
+			(uuid "bdc53279-1ccc-4eb9-ab69-80d014672ed7")
+		)
+		(instances
+			(project "TPS78401DRVR_3.3V"
+				(path "/20895e6e-7f94-43f0-9eca-30600a506dfc"
+					(reference "@C4@")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JW_Component:R_SM_0805_1")
+		(at 365.76 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68ce8327-fed6-4836-a700-e12eb0b98b53")
+		(property "Reference" "@R1@"
+			(at 366.014 263.144 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Value" "@11k@"
+			(at 365.76 257.81 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Footprint" "R_SM_0805_1"
+			(at 365.76 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/8W  1% SMD 0805"
+			(at 365.76 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d5bee10-27c2-49bb-8925-02857919ada7")
+		)
+		(pin "1"
+			(uuid "dd389ead-aba5-4c25-a8a6-6b8f03a6ce54")
+		)
+		(instances
+			(project "TPS78401DRVR_3.3V"
+				(path "/20895e6e-7f94-43f0-9eca-30600a506dfc"
+					(reference "@R1@")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JW_Component:R_SM_0805_1")
+		(at 434.34 243.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5d3819b-1981-4878-80ba-2a19d2b0870c")
+		(property "Reference" "R5"
+			(at 432.054 242.062 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Value" "@0R@"
+			(at 436.88 243.84 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Footprint" "R_SM_0805_1"
+			(at 434.34 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 434.34 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/8W  1% SMD 0805"
+			(at 434.34 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6843c032-fe09-41cb-81f9-c0f825f73caa")
+		)
+		(pin "1"
+			(uuid "a3343e90-7d5e-45e4-a3d8-17026e450931")
+		)
+		(instances
+			(project "TPS78401DRVR_3.3V"
+				(path "/20895e6e-7f94-43f0-9eca-30600a506dfc"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JW_Component:R_SM_0805_1")
+		(at 349.25 247.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecb63e8a-b073-4bfe-9f9d-3dedd4dabb33")
+		(property "Reference" "@R2@"
+			(at 347.98 249.5551 90)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "@10k@"
+			(at 347.98 245.7451 90)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "R_SM_0805_1"
+			(at 349.25 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/8W  1% SMD 0805"
+			(at 349.25 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "57f2814d-6d72-4399-a6af-c54921b6eaf2")
+		)
+		(pin "1"
+			(uuid "fd005e09-7081-422d-a7cb-4b140f90f75c")
+		)
+		(instances
+			(project "TPS78401DRVR_3.3V"
+				(path "/20895e6e-7f94-43f0-9eca-30600a506dfc"
+					(reference "@R2@")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JW_Component:CAP_SM_0805_1")
+		(at 369.57 243.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa593a15-6937-46ee-bc22-6d821c9acf57")
+		(property "Reference" "@C1@"
+			(at 368.3 249.682 90)
+			(effects
+				(font
+					(size 1.6256 1.6256)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "@1uF@"
+			(at 368.046 244.856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAP_SM_0805_1"
+			(at 369.57 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 5% SMD 0805 NP0 Ceramic"
+			(at 369.57 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd4c5c0d-bacf-4193-9ded-f49b4b0ade87")
+		)
+		(pin "1"
+			(uuid "c15a174b-41e7-430c-ac08-78192b3ae414")
+		)
+		(instances
+			(project "TPS78401DRVR_3.3V"
+				(path "/20895e6e-7f94-43f0-9eca-30600a506dfc"
+					(reference "@C1@")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

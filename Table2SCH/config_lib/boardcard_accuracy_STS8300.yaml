@@ -1,0 +1,408 @@
+# boardcard_accuracy_8300.yaml
+file_addr: C:\Users\11271\Desktop\Table2SCH\config_lib\boardcard_accuracy_8300.yaml
+
+board: FPVIe
+channels: 2
+digitizer: { resolution_bits: 16, capture_depth: 4K, max_sample_rate_sps: 1000000 }
+awg:       { resolution_bits: 16, pattern_depth: 4K, update_rate_hz: 100000, step_us: 100 }
+clamp:
+  voltage:
+    - { ranges: ["±100V", "±40V", "±20V", "±10V", "±5V", "±2V", "±1V"], resolution_bits: 16 }
+  current:
+    - { ranges: ["±1A", "±100mA", "±10mA", "±1mA", "±100uA", "±10uA"], resolution_bits: 16 }
+    - { ranges: ["±10A(Pulse)", "±2A(Pulse)"], resolution_bits: 16 }
+functions:
+  - { mode: FV, range: "±100V", resolution_bits: 16, resolution: "3.052mV", accuracy: { offset: "15mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±40V",  resolution_bits: 16, resolution: "1.221mV", accuracy: { offset: "7.5mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±20V",  resolution_bits: 16, resolution: "0.610mV", accuracy: { offset: "3mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±10V",  resolution_bits: 16, resolution: "0.305mV", accuracy: { offset: "1.5mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±5V",   resolution_bits: 16, resolution: "0.153mV", accuracy: { offset: "0.75mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±2V",   resolution_bits: 16, resolution: "0.061mV", accuracy: { offset: "0.5mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±1V",   resolution_bits: 16, resolution: "0.031mV", accuracy: { offset: "0.25mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "±100V",  resolution_bits: 16, resolution: "3.052mV", accuracy: { offset: "15mV", fs_pct: 0.025 }, context: "X1 amplifier" }
+  - { mode: MV, range: "±40V",   resolution_bits: 16, resolution: "1.221mV", accuracy: { offset: "7.5mV", fs_pct: 0.025 }, context: "X1 amplifier" }
+  - { mode: MV, range: "±20V",   resolution_bits: 16, resolution: "0.610mV", accuracy: { offset: "3mV", fs_pct: 0.025 }, context: "X1 amplifier" }
+  - { mode: MV, range: "±10V",   resolution_bits: 16, resolution: "0.305mV", accuracy: { offset: "1.5mV", fs_pct: 0.025 }, context: "X1 amplifier" }
+  - { mode: MV, range: "±5V",    resolution_bits: 16, resolution: "0.153mV", accuracy: { offset: "0.75mV", fs_pct: 0.025 }, context: "X1 amplifier" }
+  - { mode: MV, range: "±2V",    resolution_bits: 16, resolution: "0.061mV", accuracy: { offset: "0.5mV", fs_pct: 0.025 }, context: "X1 amplifier" }
+  - { mode: MV, range: "±1V",    resolution_bits: 16, resolution: "0.031mV", accuracy: { offset: "0.25mV", fs_pct: 0.025 }, context: "X1 amplifier" }
+  - { mode: MV, range: "±100mV", resolution_bits: 16, resolution: "0.003mV", accuracy: { offset: "0.2mV", fs_pct: 0.025 }, context: "X1 amplifier" }
+  - { mode: MV, range: "±100V",  resolution_bits: 16, resolution: "1.526mV", accuracy: { offset: "12mV", fs_pct: 0.030 }, context: "X2 amplifier" }
+  - { mode: MV, range: "±40V",   resolution_bits: 16, resolution: "0.610mV", accuracy: { offset: "6mV", fs_pct: 0.030 }, context: "X2 amplifier" }
+  - { mode: MV, range: "±20V",   resolution_bits: 16, resolution: "0.305mV", accuracy: { offset: "2.25mV", fs_pct: 0.030 }, context: "X2 amplifier" }
+  - { mode: MV, range: "±10V",   resolution_bits: 16, resolution: "0.153mV", accuracy: { offset: "1mV", fs_pct: 0.030 }, context: "X2 amplifier" }
+  - { mode: MV, range: "±5V",    resolution_bits: 16, resolution: "0.076mV", accuracy: { offset: "0.6mV", fs_pct: 0.030 }, context: "X2 amplifier" }
+  - { mode: MV, range: "±2V",    resolution_bits: 16, resolution: "0.031mV", accuracy: { offset: "0.4mV", fs_pct: 0.030 }, context: "X2 amplifier" }
+  - { mode: MV, range: "±1V",    resolution_bits: 16, resolution: "0.015mV", accuracy: { offset: "0.225mV", fs_pct: 0.030 }, context: "X2 amplifier" }
+  - { mode: MV, range: "±100mV", resolution_bits: 16, resolution: "0.002mV", accuracy: { offset: "0.175mV", fs_pct: 0.250 }, context: "X2 amplifier" }
+  - { mode: MV, range: "±100V",  resolution_bits: 16, resolution: "0.610mV", accuracy: { offset: "9mV", fs_pct: 0.040 }, context: "X5 amplifier" }
+  - { mode: MV, range: "±40V",   resolution_bits: 16, resolution: "0.244mV", accuracy: { offset: "5mV", fs_pct: 0.040 }, context: "X5 amplifier" }
+  - { mode: MV, range: "±20V",   resolution_bits: 16, resolution: "0.122mV", accuracy: { offset: "1.75mV", fs_pct: 0.040 }, context: "X5 amplifier" }
+  - { mode: MV, range: "±10V",   resolution_bits: 16, resolution: "0.061mV", accuracy: { offset: "0.75mV", fs_pct: 0.040 }, context: "X5 amplifier" }
+  - { mode: MV, range: "±5V",    resolution_bits: 16, resolution: "0.031mV", accuracy: { offset: "0.45mV", fs_pct: 0.040 }, context: "X5 amplifier" }
+  - { mode: MV, range: "±2V",    resolution_bits: 16, resolution: "0.012mV", accuracy: { offset: "0.3mV", fs_pct: 0.040 }, context: "X5 amplifier" }
+  - { mode: MV, range: "±1V",    resolution_bits: 16, resolution: "0.006mV", accuracy: { offset: "0.2mV", fs_pct: 0.040 }, context: "X5 amplifier" }
+  - { mode: MV, range: "±100mV", resolution_bits: 16, resolution: "0.001mV", accuracy: { offset: "0.15mV", fs_pct: 0.300 }, context: "X5 amplifier" }
+  - { mode: MV, range: "±100V",  resolution_bits: 16, resolution: "0.305mV", accuracy: { offset: "6mV", fs_pct: 0.050 }, context: "X10 amplifier" }
+  - { mode: MV, range: "±40V",   resolution_bits: 16, resolution: "0.122mV", accuracy: { offset: "4.5mV", fs_pct: 0.050 }, context: "X10 amplifier" }
+  - { mode: MV, range: "±20V",   resolution_bits: 16, resolution: "0.061mV", accuracy: { offset: "1.5mV", fs_pct: 0.050 }, context: "X10 amplifier" }
+  - { mode: MV, range: "±10V",   resolution_bits: 16, resolution: "0.031mV", accuracy: { offset: "0.6mV", fs_pct: 0.050 }, context: "X10 amplifier" }
+  - { mode: MV, range: "±5V",    resolution_bits: 16, resolution: "0.015mV", accuracy: { offset: "0.35mV", fs_pct: 0.050 }, context: "X10 amplifier" }
+  - { mode: MV, range: "±2V",    resolution_bits: 16, resolution: "0.006mV", accuracy: { offset: "0.2mV", fs_pct: 0.050 }, context: "X10 amplifier" }
+  - { mode: MV, range: "±1V",    resolution_bits: 16, resolution: "0.003mV", accuracy: { offset: "0.175mV", fs_pct: 0.050 }, context: "X10 amplifier" }
+  - { mode: MV, range: "±100mV", resolution_bits: 16, resolution: "0.305uV", accuracy: { offset: "0.125mV", fs_pct: 0.400 }, context: "X10 amplifier" }
+  - { mode: FI, range: "±10A(Pulse)", resolution_bits: 16 }
+  - { mode: FI, range: "±2A(Pulse)", resolution_bits: 16 }
+  - { mode: FI, range: "±1A", resolution_bits: 16 }
+  - { mode: FI, range: "±100mA", resolution_bits: 16 }
+  - { mode: FI, range: "±10mA", resolution_bits: 16 }
+  - { mode: FI, range: "±1mA", resolution_bits: 16 }
+  - { mode: FI, range: "±100uA", resolution_bits: 16 }
+  - { mode: MI, range: "±10uA", resolution_bits: 16, context: "measure only" }
+
+
+board: FOVIe
+channels: 8
+digitizer: { resolution_bits: 16, capture_depth: 4K, max_sample_rate_sps: 200000 }
+awg:       { resolution_bits: 16, pattern_depth: 4K, update_rate_hz: 100000, step_us: 100 }
+clamp:
+  voltage:
+    - { ranges: ["±40V", "±20V", "±10V", "±5V", "±2V"], resolution_bits: 16, accuracy: { fs_pct: 0.5 } }
+    - { ranges: ["±1V"], resolution_bits: 16, accuracy: { fs_pct: 1.0 } }
+  current:
+    - { ranges: ["±100mA", "±10mA", "±1mA", "±100uA", "±10uA"], resolution_bits: 16, accuracy: { fs_pct: 0.5 } }
+    - { ranges: ["±1A(Pulse)"], resolution_bits: 16, accuracy: { fs_pct: 2.0 } }
+functions:
+  - { mode: FV, range: "±40V", resolution_bits: 16, resolution: "1.526mV", accuracy: { offset: "7.5mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±20V", resolution_bits: 16, resolution: "0.610mV", accuracy: { offset: "3mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±10V", resolution_bits: 16, resolution: "0.305mV", accuracy: { offset: "1.5mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±5V",  resolution_bits: 16, resolution: "0.153mV", accuracy: { offset: "0.75mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±2V",  resolution_bits: 16, resolution: "0.061mV", accuracy: { offset: "0.4mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±1V",  resolution_bits: 16, resolution: "0.031mV", accuracy: { offset: "0.25mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "±40V", resolution_bits: 16, resolution: "1.526mV", accuracy: { offset: "7.5mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "±20V", resolution_bits: 16, resolution: "0.610mV", accuracy: { offset: "3mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "±10V", resolution_bits: 16, resolution: "0.305mV", accuracy: { offset: "1.5mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "±5V",  resolution_bits: 16, resolution: "0.153mV", accuracy: { offset: "0.75mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "±2V",  resolution_bits: 16, resolution: "0.061mV", accuracy: { offset: "0.4mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "±1V",  resolution_bits: 16, resolution: "0.031mV", accuracy: { offset: "0.25mV", fs_pct: 0.025 } }
+  - { mode: FI, range: "±1A(Pulse)", resolution_bits: 16, resolution: "30.517uA", accuracy: { offset: "0.2mA", fs_pct: 0.25, extra_offset_per_v: "10uA/V" } }
+  - { mode: FI, range: "±100mA", resolution_bits: 16, resolution: "3.052uA", accuracy: { offset: "15uA", fs_pct: 0.05, extra_offset_per_v: "1uA/V" } }
+  - { mode: FI, range: "±10mA",  resolution_bits: 16, resolution: "305.176nA", accuracy: { offset: "1.5uA", fs_pct: 0.05, extra_offset_per_v: "0.1uA/V" } }
+  - { mode: FI, range: "±1mA",   resolution_bits: 16, resolution: "30.518nA", accuracy: { offset: "150nA", fs_pct: 0.05, extra_offset_per_v: "0.01uA/V" } }
+  - { mode: FI, range: "±100uA", resolution_bits: 16, resolution: "3.052nA", accuracy: { offset: "25nA", fs_pct: 0.05, extra_offset_per_v: "1nA/V" } }
+  - { mode: MI, range: "±1A(Pulse)", resolution_bits: 16, resolution: "30.517uA", accuracy: { offset: "0.2mA", fs_pct: 0.25, extra_offset_per_v: "10uA/V" }, context: "X1 amplifier" }
+  - { mode: MI, range: "±100mA", resolution_bits: 16, resolution: "3.052uA", accuracy: { offset: "15uA", fs_pct: 0.05, extra_offset_per_v: "1uA/V" }, context: "X1 amplifier" }
+  - { mode: MI, range: "±10mA",  resolution_bits: 16, resolution: "305.176nA", accuracy: { offset: "1.5uA", fs_pct: 0.05, extra_offset_per_v: "0.1uA/V" }, context: "X1 amplifier" }
+  - { mode: MI, range: "±1mA",   resolution_bits: 16, resolution: "30.518nA", accuracy: { offset: "150nA", fs_pct: 0.05, extra_offset_per_v: "0.01uA/V" }, context: "X1 amplifier" }
+  - { mode: MI, range: "±100uA", resolution_bits: 16, resolution: "3.052nA", accuracy: { offset: "25nA", fs_pct: 0.05, extra_offset_per_v: "1nA/V" }, context: "X1 amplifier" }
+  - { mode: MI, range: "±10uA",  resolution_bits: 16, resolution: "0.305nA", accuracy: { offset: "10nA", fs_pct: 0.25, extra_offset_per_v: "0.2nA/V" }, context: "X1 amplifier" }
+  - { mode: MI, range: "±1A(Pulse)", resolution_bits: 16, resolution: "3.052uA", accuracy: { offset: "70uA", fs_pct: 0.25, extra_offset_per_v: "6uA/V" }, context: "X10 amplifier" }
+  - { mode: MI, range: "±100mA", resolution_bits: 16, resolution: "305.176nA", accuracy: { offset: "7uA", fs_pct: 0.05, extra_offset_per_v: "0.6uA/V" }, context: "X10 amplifier" }
+  - { mode: MI, range: "±10mA",  resolution_bits: 16, resolution: "30.518nA", accuracy: { offset: "0.7uA", fs_pct: 0.05, extra_offset_per_v: "60nA/V" }, context: "X10 amplifier" }
+  - { mode: MI, range: "±1mA",   resolution_bits: 16, resolution: "3.052nA", accuracy: { offset: "70nA", fs_pct: 0.05, extra_offset_per_v: "6nA/V" }, context: "X10 amplifier" }
+  - { mode: MI, range: "±100uA", resolution_bits: 16, resolution: "0.305nA", accuracy: { offset: "15nA", fs_pct: 0.05, extra_offset_per_v: "0.8nA/V" }, context: "X10 amplifier" }
+  - { mode: MI, range: "±10uA",  resolution_bits: 16, resolution: "0.031nA", accuracy: { offset: "5nA", fs_pct: 0.25, extra_offset_per_v: "0.1nA/V" }, context: "X10 amplifier" }
+
+
+board: FXVIe
+channels: 12
+digitizer: { resolution_bits: 16, capture_depth: 4K, max_sample_rate_sps: 200000 }
+awg:       { resolution_bits: 16, pattern_depth: 4K, update_rate_hz: 100000, step_us: 20 }
+dvm:       { range: "3.6V", resolution_bits: 16, capture_depth: 4K, max_sample_rate_sps: 200000, accuracy: { offset: "0.3mV", fs_pct: 0.01 } }
+tmu:
+  channels_per_board: 4
+  measuring_time_ranges: ["30ns~950ns", "800ns~4ms", "30ns~5.368s"]
+  input_voltage_ranges: ["±30V", "±10V", "±3.6V"]
+  input_analog_filter: ["PASS", "1M", "100K"]
+clamp:
+  voltage:
+    - { ranges: ["±30V", "±10V", "±3.6V"], resolution_bits: 16, accuracy: { fs_pct: 0.5 } }
+  current:
+    - { ranges: ["±100mA", "±10mA", "±1mA", "±100uA", "±10uA"], resolution_bits: 16, accuracy: { fs_pct: 0.5 } }
+    - { ranges: ["±1A(Pulse)"], resolution_bits: 16, accuracy: { fs_pct: 1.6 } }
+functions:
+  - { mode: FV, range: "±30V",  resolution_bits: 16, resolution: "1.017mV", accuracy: { offset: "6mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±10V",  resolution_bits: 16, resolution: "0.339mV", accuracy: { offset: "2mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±3.6V", resolution_bits: 16, resolution: "0.113mV", accuracy: { offset: "0.75mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "±30V",  resolution_bits: 16, resolution: "1.144mV", accuracy: { offset: "6mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "±10V",  resolution_bits: 16, resolution: "0.381mV", accuracy: { offset: "2mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "±3.6V", resolution_bits: 16, resolution: "0.127mV", accuracy: { offset: "0.75mV", fs_pct: 0.025 } }
+  - { mode: FI, range: "±1A(Pulse)", resolution_bits: 16, resolution: "33.908uA" }
+  - { mode: FI, range: "±100mA", resolution_bits: 16, resolution: "3.39uA" }
+  - { mode: FI, range: "±10mA", resolution_bits: 16, resolution: "339.08nA" }
+  - { mode: FI, range: "±1mA", resolution_bits: 16, resolution: "33.908nA" }
+  - { mode: FI, range: "±100uA", resolution_bits: 16, resolution: "3.39nA" }
+  - { mode: FI, range: "±10uA", resolution_bits: 16, resolution: "0.3815nA" }
+  - { mode: MI, range: "±1A(Pulse)", resolution_bits: 16, resolution: "38.147uA", context: "X1 amplifier" }
+  - { mode: MI, range: "±100mA", resolution_bits: 16, resolution: "3.815uA", context: "X1 amplifier" }
+  - { mode: MI, range: "±10mA", resolution_bits: 16, resolution: "381.47nA", context: "X1 amplifier" }
+  - { mode: MI, range: "±1mA", resolution_bits: 16, resolution: "38.147nA", context: "X1 amplifier" }
+  - { mode: MI, range: "±100uA", resolution_bits: 16, resolution: "3.8147nA", context: "X1 amplifier" }
+  - { mode: MI, range: "±10uA", resolution_bits: 16, resolution: "0.3815nA", context: "X1 amplifier" }
+  - { mode: MI, range: "±1A(Pulse)", resolution_bits: 16, resolution: "3.815uA", context: "X10 amplifier" }
+  - { mode: MI, range: "±100mA", resolution_bits: 16, resolution: "381.47nA", context: "X10 amplifier" }
+  - { mode: MI, range: "±10mA", resolution_bits: 16, resolution: "38.147nA", context: "X10 amplifier" }
+  - { mode: MI, range: "±1mA", resolution_bits: 16, resolution: "3.8147nA", context: "X10 amplifier" }
+  - { mode: MI, range: "±100uA", resolution_bits: 16, resolution: "0.3815nA", context: "X10 amplifier" }
+  - { mode: MI, range: "±10uA", resolution_bits: 16, resolution: "0.0381nA", context: "X10 amplifier" }
+
+
+board: HVIe
+channels: 1
+digitizer: { resolution_bits: 16, capture_depth: 8K, max_sample_rate_sps: 200000 }
+awg:       { resolution_bits: 16, pattern_depth: 8K, update_rate_hz: 100000, step_us: 100 }
+clamp:
+  voltage:
+    - { ranges: ["1000V_POS", "500V_POS", "200V_POS", "100V_POS", "10V_POS", "1000V_NEG", "500V_NEG", "200V_NEG", "100V_NEG", "10V_NEG"], resolution_bits: 16, accuracy: { fs_pct: 2.0 } }
+  current:
+    - { ranges: ["±20mA", "±10mA", "±1mA"], resolution_bits: 16, accuracy: { fs_pct: 2.5 } }
+    - { ranges: ["±100uA", "±10uA"], resolution_bits: 16, accuracy: { fs_pct: 3.0 } }
+functions:
+  - { mode: FV, range: "1000V_POS (-10V to +1000V)", resolution_bits: 16, resolution: "30.518mV", accuracy: { offset: "250mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "500V_POS (-10V to +500V)", resolution_bits: 16, resolution: "15.259mV", accuracy: { offset: "125mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "200V_POS (-10V to +200V)", resolution_bits: 16, resolution: "6.104mV", accuracy: { offset: "50mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "100V_POS (-10V to +100V)", resolution_bits: 16, resolution: "3.052mV", accuracy: { offset: "25mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "10V_POS (-10V to +10V)", resolution_bits: 16, resolution: "0.305mV", accuracy: { offset: "10mV", fs_pct: 0.1 } }
+  - { mode: FV, range: "10V_NEG (-10V to +10V)", resolution_bits: 16, resolution: "0.305mV", accuracy: { offset: "10mV", fs_pct: 0.1 } }
+  - { mode: FV, range: "100V_NEG (-100V to +10V)", resolution_bits: 16, resolution: "3.052mV", accuracy: { offset: "25mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "200V_NEG (-200V to +10V)", resolution_bits: 16, resolution: "6.104mV", accuracy: { offset: "50mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "500V_NEG (-500V to +10V)", resolution_bits: 16, resolution: "15.259mV", accuracy: { offset: "125mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "1000V_NEG (-1000V to +10V)", resolution_bits: 16, resolution: "30.518mV", accuracy: { offset: "250mV", fs_pct: 0.025 } }
+  - { mode: FI, range: "±20mA", resolution_bits: 16, resolution: "610.352nA" }
+  - { mode: FI, range: "±10mA", resolution_bits: 16, resolution: "305.176nA" }
+  - { mode: FI, range: "±1mA", resolution_bits: 16, resolution: "30.518nA" }
+  - { mode: FI, range: "±100uA", resolution_bits: 16, resolution: "3.052nA" }
+  - { mode: MI, range: "±20mA", resolution_bits: 16, resolution: "610.352nA", context: "X1 amplifier" }
+  - { mode: MI, range: "±10mA", resolution_bits: 16, resolution: "305.176nA", context: "X1 amplifier" }
+  - { mode: MI, range: "±1mA", resolution_bits: 16, resolution: "30.518nA", context: "X1 amplifier" }
+  - { mode: MI, range: "±100uA", resolution_bits: 16, resolution: "3.052nA", context: "X1 amplifier" }
+  - { mode: MI, range: "±10uA", resolution_bits: 16, resolution: "0.305nA", context: "X1 amplifier" }
+  - { mode: MI, range: "±1uA", resolution_bits: 16, resolution: "0.031nA", context: "X1 amplifier" }
+  - { mode: MI, range: "±20mA", resolution_bits: 16, resolution: "61.036nA", context: "X10 amplifier" }
+  - { mode: MI, range: "±10mA", resolution_bits: 16, resolution: "30.518nA", context: "X10 amplifier" }
+  - { mode: MI, range: "±1mA", resolution_bits: 16, resolution: "3.052nA", context: "X10 amplifier" }
+  - { mode: MI, range: "±100uA", resolution_bits: 16, resolution: "0.305nA", context: "X10 amplifier" }
+  - { mode: MI, range: "±10uA", resolution_bits: 16, resolution: "0.031nA", context: "X10 amplifier" }
+
+
+board: ACM200
+channels: 24
+digitizer: { resolution_bits: 16, capture_depth: 4K, max_sample_rate_sps: 1000000 }
+awg:       { resolution_bits: 16, pattern_depth: 4K, update_rate_hz: 100000, step_us: 100 }
+clamp:
+  voltage:
+    - { ranges: ["±40V", "±20V", "±10V", "±3.6V"], resolution_bits: 12, accuracy: { fs_pct: 0.5 } }
+  current:
+    - { ranges: ["±200mA", "±100mA", "±10mA", "±1mA", "±100uA", "±10uA"], resolution_bits: 12, accuracy: { fs_pct: 0.5 } }
+    - { ranges: ["±1uA"], resolution_bits: 12, accuracy: { fs_pct: 1.0 } }
+functions:
+  - { mode: FV, range: "±40V", resolution_bits: 16, resolution: "1.524mV", accuracy: { offset: "6mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±20V", resolution_bits: 16, resolution: "0.762mV", accuracy: { offset: "3mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±10V", resolution_bits: 16, resolution: "0.381mV", accuracy: { offset: "1.5mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±3.6V", resolution_bits: 16, resolution: "0.127mV", accuracy: { offset: "0.6mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "±40V", resolution_bits: 16, resolution: "1.524mV", accuracy: { offset: "6mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "±20V", resolution_bits: 16, resolution: "0.762mV", accuracy: { offset: "3mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "±10V", resolution_bits: 16, resolution: "0.381mV", accuracy: { offset: "1.5mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "±3.6V", resolution_bits: 16, resolution: "0.127mV", accuracy: { offset: "0.6mV", fs_pct: 0.025 } }
+  - { mode: FI, range: "±200mA", resolution_bits: 16, resolution: "7.62uA" }
+  - { mode: FI, range: "±100mA", resolution_bits: 16, resolution: "3.81uA" }
+  - { mode: FI, range: "±10mA", resolution_bits: 16, resolution: "381.47nA" }
+  - { mode: FI, range: "±1mA", resolution_bits: 16, resolution: "38.147nA" }
+  - { mode: FI, range: "±100uA", resolution_bits: 16, resolution: "3.81nA" }
+  - { mode: FI, range: "±10uA", resolution_bits: 16, resolution: "0.3815nA" }
+  - { mode: FI, range: "±1uA", resolution_bits: 16, resolution: "0.03815nA" }
+  - { mode: MI, range: "±200mA", resolution_bits: 16, resolution: "7.62uA" }
+  - { mode: MI, range: "±100mA", resolution_bits: 16, resolution: "3.81uA" }
+  - { mode: MI, range: "±10mA", resolution_bits: 16, resolution: "381.47nA" }
+  - { mode: MI, range: "±1mA", resolution_bits: 16, resolution: "38.147nA" }
+  - { mode: MI, range: "±100uA", resolution_bits: 16, resolution: "3.81nA" }
+  - { mode: MI, range: "±10uA", resolution_bits: 16, resolution: "0.3815nA" }
+  - { mode: MI, range: "±1uA", resolution_bits: 16, resolution: "0.03815nA" }
+
+
+board: HPVIe
+channels: 1
+digitizer: { resolution_bits: 16, capture_depth: 4K, max_sample_rate_sps: 1000000 }
+awg:       { resolution_bits: 16, pattern_depth: 4K, update_rate_hz: 100000, step_us: 200 }
+clamp:
+  voltage:
+    - { ranges: ["±100V", "±40V", "±20V", "±10V", "±5V", "±2V"], resolution_bits: 16, accuracy: { fs_pct: 0.5 } }
+  current:
+    - { ranges: ["±1A", "±100mA", "±10mA", "±1mA", "±100uA", "±10uA"], resolution_bits: 16, accuracy: { fs_pct: 0.5 } }
+    - { ranges: ["±100A", "±50A", "±20A", "±10A", "±2A"], resolution_bits: 16, accuracy: { fs_pct: 2.0 } }
+functions:
+  - { mode: FV, range: "±100V", resolution_bits: 16, resolution: "3.179mV", accuracy: { offset: "17mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±40V",  resolution_bits: 16, resolution: "1.590mV", accuracy: { offset: "8.5mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±20V",  resolution_bits: 16, resolution: "0.636mV", accuracy: { offset: "3.32mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±10V",  resolution_bits: 16, resolution: "0.318mV", accuracy: { offset: "1.66mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±5V",   resolution_bits: 16, resolution: "0.159mV", accuracy: { offset: "0.91mV", fs_pct: 0.025 } }
+  - { mode: FV, range: "±2V",   resolution_bits: 16, resolution: "0.064mV", accuracy: { offset: "0.66mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "±100V", resolution_bits: 16, resolution: "3.357mV", accuracy: { offset: "17mV", fs_pct: 0.025 }, context: "X1 amplifier" }
+  - { mode: MV, range: "±40V",  resolution_bits: 16, resolution: "1.678mV", accuracy: { offset: "8.5mV", fs_pct: 0.025 }, context: "X1 amplifier" }
+  - { mode: MV, range: "±20V",  resolution_bits: 16, resolution: "0.671mV", accuracy: { offset: "3.32mV", fs_pct: 0.025 }, context: "X1 amplifier" }
+  - { mode: MV, range: "±10V",  resolution_bits: 16, resolution: "0.336mV", accuracy: { offset: "1.66mV", fs_pct: 0.025 }, context: "X1 amplifier" }
+  - { mode: MV, range: "±5V",   resolution_bits: 16, resolution: "0.168mV", accuracy: { offset: "0.91mV", fs_pct: 0.025 }, context: "X1 amplifier" }
+  - { mode: MV, range: "±2V",   resolution_bits: 16, resolution: "0.067mV", accuracy: { offset: "0.66mV", fs_pct: 0.025 }, context: "X1 amplifier" }
+  - { mode: MV, range: "±100V", resolution_bits: 16, resolution: "1.678mV", accuracy: { offset: "14mV", fs_pct: 0.030 }, context: "X2 amplifier" }
+  - { mode: MV, range: "±40V",  resolution_bits: 16, resolution: "0.839mV", accuracy: { offset: "7mV", fs_pct: 0.030 }, context: "X2 amplifier" }
+  - { mode: MV, range: "±20V",  resolution_bits: 16, resolution: "0.336mV", accuracy: { offset: "2.57mV", fs_pct: 0.030 }, context: "X2 amplifier" }
+  - { mode: MV, range: "±10V",  resolution_bits: 16, resolution: "0.168mV", accuracy: { offset: "1.16mV", fs_pct: 0.030 }, context: "X2 amplifier" }
+  - { mode: MV, range: "±5V",   resolution_bits: 16, resolution: "0.084mV", accuracy: { offset: "0.76mV", fs_pct: 0.030 }, context: "X2 amplifier" }
+  - { mode: MV, range: "±2V",   resolution_bits: 16, resolution: "0.034mV", accuracy: { offset: "0.56mV", fs_pct: 0.030 }, context: "X2 amplifier" }
+  - { mode: MV, range: "±100V", resolution_bits: 16, resolution: "0.671mV", accuracy: { offset: "11mV", fs_pct: 0.040 }, context: "X5 amplifier" }
+  - { mode: MV, range: "±40V",  resolution_bits: 16, resolution: "0.336mV", accuracy: { offset: "6mV", fs_pct: 0.040 }, context: "X5 amplifier" }
+  - { mode: MV, range: "±20V",  resolution_bits: 16, resolution: "0.134mV", accuracy: { offset: "2.08mV", fs_pct: 0.040 }, context: "X5 amplifier" }
+  - { mode: MV, range: "±10V",  resolution_bits: 16, resolution: "0.067mV", accuracy: { offset: "0.91mV", fs_pct: 0.040 }, context: "X5 amplifier" }
+  - { mode: MV, range: "±5V",   resolution_bits: 16, resolution: "0.034mV", accuracy: { offset: "0.61mV", fs_pct: 0.040 }, context: "X5 amplifier" }
+  - { mode: MV, range: "±2V",   resolution_bits: 16, resolution: "0.013mV", accuracy: { offset: "0.46mV", fs_pct: 0.040 }, context: "X5 amplifier" }
+  - { mode: MV, range: "±100V", resolution_bits: 16, resolution: "0.336mV", accuracy: { offset: "8mV", fs_pct: 0.050 }, context: "X10 amplifier" }
+  - { mode: MV, range: "±40V",  resolution_bits: 16, resolution: "0.168mV", accuracy: { offset: "5.5mV", fs_pct: 0.050 }, context: "X10 amplifier" }
+  - { mode: MV, range: "±20V",  resolution_bits: 16, resolution: "0.071mV", accuracy: { offset: "1.82mV", fs_pct: 0.050 }, context: "X10 amplifier" }
+  - { mode: MV, range: "±10V",  resolution_bits: 16, resolution: "0.034mV", accuracy: { offset: "0.76mV", fs_pct: 0.050 }, context: "X10 amplifier" }
+  - { mode: MV, range: "±5V",   resolution_bits: 16, resolution: "0.017mV", accuracy: { offset: "0.51mV", fs_pct: 0.050 }, context: "X10 amplifier" }
+  - { mode: MV, range: "±2V",   resolution_bits: 16, resolution: "0.007mV", accuracy: { offset: "0.36mV", fs_pct: 0.050 }, context: "X10 amplifier" }
+  - { mode: FI, range: "±100A(Pulse)", resolution_bits: 16, resolution: "3.179mA" }
+  - { mode: FI, range: "±50A(Pulse)", resolution_bits: 16, resolution: "1.590mA" }
+  - { mode: FI, range: "±20A(Pulse)", resolution_bits: 16, resolution: "635.78uA" }
+  - { mode: FI, range: "±10A(Pulse)", resolution_bits: 16, resolution: "317.89uA" }
+  - { mode: FI, range: "±2A(Pulse)", resolution_bits: 16, resolution: "63.578uA" }
+  - { mode: FI, range: "±1A", resolution_bits: 16, resolution: "31.789uA" }
+  - { mode: FI, range: "±100mA", resolution_bits: 16, resolution: "3.179uA" }
+  - { mode: FI, range: "±10mA", resolution_bits: 16, resolution: "317.9nA" }
+  - { mode: FI, range: "±1mA", resolution_bits: 16, resolution: "31.79nA" }
+  - { mode: FI, range: "±100uA", resolution_bits: 16, resolution: "3.179nA" }
+  - { mode: FI, range: "±10uA", resolution_bits: 16, resolution: "0.3179nA" }
+  - { mode: MI, range: "±100A(Pulse)", resolution_bits: 16, resolution: "3.3570mA", context: "X1 amplifier" }
+  - { mode: MI, range: "±50A(Pulse)", resolution_bits: 16, resolution: "1.6785mA", context: "X1 amplifier" }
+  - { mode: MI, range: "±20A(Pulse)", resolution_bits: 16, resolution: "671.40uA", context: "X1 amplifier" }
+  - { mode: MI, range: "±10A(Pulse)", resolution_bits: 16, resolution: "335.70uA", context: "X1 amplifier" }
+  - { mode: MI, range: "±2A(Pulse)", resolution_bits: 16, resolution: "67.197uA", context: "X1 amplifier" }
+  - { mode: MI, range: "±1A", resolution_bits: 16, resolution: "33.570uA", context: "X1 amplifier" }
+  - { mode: MI, range: "±100mA", resolution_bits: 16, resolution: "3.357uA", context: "X1 amplifier" }
+  - { mode: MI, range: "±10mA", resolution_bits: 16, resolution: "335.70nA", context: "X1 amplifier" }
+  - { mode: MI, range: "±1mA", resolution_bits: 16, resolution: "33.57nA", context: "X1 amplifier" }
+  - { mode: MI, range: "±100uA", resolution_bits: 16, resolution: "3.357nA", context: "X1 amplifier" }
+  - { mode: MI, range: "±10uA", resolution_bits: 16, resolution: "0.3357nA", context: "X1 amplifier" }
+  - { mode: MI, range: "±100A(Pulse)", resolution_bits: 16, resolution: "1.6785mA", context: "X2 amplifier" }
+  - { mode: MI, range: "±50A(Pulse)", resolution_bits: 16, resolution: "839.245uA", context: "X2 amplifier" }
+  - { mode: MI, range: "±20A(Pulse)", resolution_bits: 16, resolution: "335.698uA", context: "X2 amplifier" }
+  - { mode: MI, range: "±10A(Pulse)", resolution_bits: 16, resolution: "167.850uA", context: "X2 amplifier" }
+  - { mode: MI, range: "±2A(Pulse)", resolution_bits: 16, resolution: "33.5698uA", context: "X2 amplifier" }
+  - { mode: MI, range: "±1A", resolution_bits: 16, resolution: "16.785uA", context: "X2 amplifier" }
+  - { mode: MI, range: "±100mA", resolution_bits: 16, resolution: "1.6785uA", context: "X2 amplifier" }
+  - { mode: MI, range: "±10mA", resolution_bits: 16, resolution: "167.85nA", context: "X2 amplifier" }
+  - { mode: MI, range: "±1mA", resolution_bits: 16, resolution: "16.785nA", context: "X2 amplifier" }
+  - { mode: MI, range: "±100uA", resolution_bits: 16, resolution: "1.6785nA", context: "X2 amplifier" }
+  - { mode: MI, range: "±10uA", resolution_bits: 16, resolution: "0.16785nA", context: "X2 amplifier" }
+  - { mode: MI, range: "±100A(Pulse)", resolution_bits: 16, resolution: "671.396uA", context: "X5 amplifier" }
+  - { mode: MI, range: "±50A(Pulse)", resolution_bits: 16, resolution: "335.698uA", context: "X5 amplifier" }
+  - { mode: MI, range: "±20A(Pulse)", resolution_bits: 16, resolution: "134.279uA", context: "X5 amplifier" }
+  - { mode: MI, range: "±10A(Pulse)", resolution_bits: 16, resolution: "67.1396uA", context: "X5 amplifier" }
+  - { mode: MI, range: "±2A(Pulse)", resolution_bits: 16, resolution: "13.428uA", context: "X5 amplifier" }
+  - { mode: MI, range: "±1A", resolution_bits: 16, resolution: "6.7140uA", context: "X5 amplifier" }
+  - { mode: MI, range: "±100mA", resolution_bits: 16, resolution: "671.396nA", context: "X5 amplifier" }
+  - { mode: MI, range: "±10mA", resolution_bits: 16, resolution: "67.1396nA", context: "X5 amplifier" }
+  - { mode: MI, range: "±1mA", resolution_bits: 16, resolution: "6.7140nA", context: "X5 amplifier" }
+  - { mode: MI, range: "±100uA", resolution_bits: 16, resolution: "0.6714nA", context: "X5 amplifier" }
+  - { mode: MI, range: "±10uA", resolution_bits: 16, resolution: "0.0671nA", context: "X5 amplifier" }
+  - { mode: MI, range: "±100A(Pulse)", resolution_bits: 16, resolution: "335.698uA", context: "X10 amplifier" }
+  - { mode: MI, range: "±50A(Pulse)", resolution_bits: 16, resolution: "167.849uA", context: "X10 amplifier" }
+  - { mode: MI, range: "±20A(Pulse)", resolution_bits: 16, resolution: "67.1396uA", context: "X10 amplifier" }
+  - { mode: MI, range: "±10A(Pulse)", resolution_bits: 16, resolution: "33.5698uA", context: "X10 amplifier" }
+  - { mode: MI, range: "±2A(Pulse)", resolution_bits: 16, resolution: "6.7140uA", context: "X10 amplifier" }
+  - { mode: MI, range: "±1A", resolution_bits: 16, resolution: "3.3570uA", context: "X10 amplifier" }
+  - { mode: MI, range: "±100mA", resolution_bits: 16, resolution: "335.698nA", context: "X10 amplifier" }
+  - { mode: MI, range: "±10mA", resolution_bits: 16, resolution: "33.5698nA", context: "X10 amplifier" }
+  - { mode: MI, range: "±1mA", resolution_bits: 16, resolution: "3.3570nA", context: "X10 amplifier" }
+  - { mode: MI, range: "±100uA", resolution_bits: 16, resolution: "0.3357nA", context: "X10 amplifier" }
+  - { mode: MI, range: "±10uA", resolution_bits: 16, resolution: "0.0336nA", context: "X10 amplifier" }
+
+
+board: ACM
+channels: 24
+digitizer: { resolution_bits: 16, capture_depth: 4K, max_sample_rate_sps: 200000 }
+awg:       { resolution_bits: 16, pattern_depth: 4K, update_rate_hz: 100000, step_us: 100 }
+clamp:
+  voltage:
+    - { ranges: ["N2P18V"], resolution_bits: 16, accuracy: { fs_pct: 3.0 } }
+  current:
+    - { ranges: ["±500mA(Pulse)", "±200mA", "±20mA", "±2mA", "±200uA", "±20uA", "±5uA"], resolution_bits: 16, accuracy: { fs_pct: 10.0 } }
+functions:
+  - { mode: FV, range: "-2V to +18V", resolution_bits: 16, resolution: "0.305mV", accuracy: { offset: "3mV", fs_pct: 0.025 } }
+  - { mode: MV, range: "-2V to +18V", resolution_bits: 16, resolution: "0.610mV", accuracy: { offset: "3mV", fs_pct: 0.025 } }
+  - { mode: FI, range: "±500mA(Pulse)", resolution_bits: 16, resolution: "15.259uA", accuracy: { offset: "0.2mA", fs_pct: 0.2 } }
+  - { mode: FI, range: "±200mA", resolution_bits: 16, resolution: "6.104uA", accuracy: { offset: "40uA", fs_pct: 0.05 } }
+  - { mode: FI, range: "±20mA", resolution_bits: 16, resolution: "0.610uA", accuracy: { offset: "4uA", fs_pct: 0.05 } }
+  - { mode: FI, range: "±2mA", resolution_bits: 16, resolution: "61.035nA", accuracy: { offset: "400nA", fs_pct: 0.05 } }
+  - { mode: FI, range: "±200uA", resolution_bits: 16, resolution: "6.104nA", accuracy: { offset: "40nA", fs_pct: 0.05 } }
+  - { mode: FI, range: "±20uA", resolution_bits: 16, resolution: "0.610nA", accuracy: { offset: "10nA", fs_pct: 0.05 } }
+  - { mode: FI, range: "±5uA", resolution_bits: 16, resolution: "0.153nA", accuracy: { offset: "5nA", fs_pct: 0.05 } }
+  - { mode: MI, range: "±500mA(Pulse)", resolution_bits: 16, resolution: "30.517uA", accuracy: { offset: "0.2mA", fs_pct: 0.2 } }
+  - { mode: MI, range: "±200mA", resolution_bits: 16, resolution: "12.207uA", accuracy: { offset: "60uA", fs_pct: 0.05 } }
+  - { mode: MI, range: "±20mA", resolution_bits: 16, resolution: "1.221uA", accuracy: { offset: "6uA", fs_pct: 0.05 } }
+  - { mode: MI, range: "±2mA", resolution_bits: 16, resolution: "122.07nA", accuracy: { offset: "600nA", fs_pct: 0.05 } }
+  - { mode: MI, range: "±200uA", resolution_bits: 16, resolution: "12.207nA", accuracy: { offset: "60nA", fs_pct: 0.05 } }
+  - { mode: MI, range: "±20uA", resolution_bits: 16, resolution: "1.221nA", accuracy: { offset: "10nA", fs_pct: 0.05 } }
+  - { mode: MI, range: "±5uA", resolution_bits: 16, resolution: "0.305nA", accuracy: { offset: "6nA", fs_pct: 0.05 } }
+
+
+board: QTMUe
+channels: 4
+time_input_channels: 8
+storage_depth: 64K
+functions:
+  - { mode: MT, range: "5ns~950ns", time_accuracy: { offset: "2ns", reading_pct: 0.1 }, resolution: "<50ps" }
+  - { mode: MT, range: "800ns~4ms", time_accuracy: { offset: "2ns", reading_pct: 0.1 }, resolution: "<30ps" }
+  - { mode: MT, range: "5ns~5us", time_accuracy: { offset: "10ns", reading_pct: 0.1 }, resolution: "5ns" }
+  - { mode: MT, range: "5us~40s", time_accuracy: { offset: "5ns", reading_pct: 0.1 }, resolution: "5ns" }
+  - { mode: FREQ, range: "0.1Hz~50MHz" }
+input:
+  analog_mode: { voltage_ranges: ["±50V", "±25V", "±10V", "±5V"], bandwidth: ">50MHz", impedance: "1MΩ", lpf: ["Direct Pass", "10MHz", "1MHz", "100KHz"], trigger_resolution_bits: 14 }
+  digital_mode: { voltage_range: "-2~+6V", bandwidth: ">200MHz", impedance: ">10MΩ", lpf: ["Direct Pass"] }
+
+
+board: QVMe
+channels: 4
+sample_depth: 64K
+functions:
+  - { mode: VM, context: "high_precision", range: "±100V",  resolution_bits: 18, resolution: "781.3uV", accuracy: { offset: "10mV", reading_pct: 0.01 } }
+  - { mode: VM, context: "high_precision", range: "±50V",   resolution_bits: 18, resolution: "390.6uV", accuracy: { offset: "5mV", reading_pct: 0.01 } }
+  - { mode: VM, context: "high_precision", range: "±20V",   resolution_bits: 18, resolution: "156.3uV", accuracy: { offset: "2mV", reading_pct: 0.01 } }
+  - { mode: VM, context: "high_precision", range: "±10V",   resolution_bits: 18, resolution: "78.1uV",  accuracy: { offset: "1mV", reading_pct: 0.01 } }
+  - { mode: VM, context: "high_precision", range: "±5V",    resolution_bits: 18, resolution: "39.1uV",  accuracy: { offset: "500uV", reading_pct: 0.01 } }
+  - { mode: VM, context: "high_precision", range: "±2V",    resolution_bits: 18, resolution: "15.6uV",  accuracy: { offset: "200uV", reading_pct: 0.01 } }
+  - { mode: VM, context: "high_precision", range: "±1V",    resolution_bits: 18, resolution: "7.8uV",   accuracy: { offset: "150uV", reading_pct: 0.01 } }
+  - { mode: VM, context: "high_precision", range: "±500mV", resolution_bits: 18, resolution: "3.9uV",   accuracy: { offset: "100uV", reading_pct: 0.01 } }
+  - { mode: VM, context: "high_precision", range: "±200mV", resolution_bits: 18, resolution: "1.56uV",  accuracy: { offset: "100uV", reading_pct: 0.01 } }
+  - { mode: VM, context: "high_precision", range: "±100mV", resolution_bits: 18, resolution: "0.78uV",  accuracy: { offset: "100uV", reading_pct: 0.01 } }
+  - { mode: VM, context: "high_speed", range: "±4V", resolution_bits: 12, resolution: "2.44mV", accuracy: { offset: "4mV", reading_pct: 0.1 } }
+  - { mode: VM, context: "high_speed", range: "±2V", resolution_bits: 12, resolution: "1.22mV", accuracy: { offset: "2mV", reading_pct: 0.1 } }
+  - { mode: VM, context: "high_speed", range: "±1V", resolution_bits: 12, resolution: "0.61mV", accuracy: { offset: "1mV", reading_pct: 0.1 } }
+metrics: ["MAX", "MIN", "AVG", "Trigger point", "RMS", "FFT", "THD", "SNR", "SINAD"]
+digitizer:
+  high_precision: { sample_rate_sps: 1000000, sample_interval_us: "1~1300", interval_resolution_us: 0.1, lpf: ["10KHz", "40KHz", "100KHz", "400KHz"], bandwidth: ">10MHz", thd: "-90dBTyp", snr: "78dBTyp", sinad: "76dBTyp" }
+  high_speed: { sample_rate_sps: 10000000, sample_interval_us: "0.1~1.0", interval_resolution_us: 0.1, bandwidth: ">10MHz", thd: "-78dBTyp" }
+
+
+board: DCM_PLUS
+channels: 64
+functions:
+  - { mode: IO, level_range: "-1.5V~6V", vector_rate_hz: 8.33e7, transfer_rate_range: "12ns~4ms", period_resolution_ns: 1, min_pulse_width_ns: 4, rise_fall_time_ns: 3, vector_depth_per_channel: "64M", storage_depth_per_channel: "5K", sync_accuracy_ns: 2 }
+  - { mode: PMU, voltage_range: "-1.5V~+6V", resolution_bits: 16, accuracy: { setting_pct: 0.1, offset: "8mV" }, context: "per_pin" }
+  - { mode: PMU, current_range: "±32mA/±2mA/±200uA/±20uA/±2uA", resolution_bits: 16, accuracy: { fs_pct: 1.0 }, context: "per_pin" }
+tmu:
+  channels_per_16_channels: 2
+  measurement_types: ["Propagation delay", "Rise/Fall time", "Period", "Frequency", "Duty cycle"]
+  period_range: "12ns~500ms"
+  period_accuracy: { reading_pct: 0.1, offset: "2ns" }
+  duty_cycle_accuracy_pct: 5
+  rise_fall_time_range: "0ns~500ms"
+  rise_fall_time_accuracy: { reading_pct: 0.1, offset: "2ns" }
+high_voltage_output:
+  channels: 8
+  voltage_range: "0~+13V"
+  source_current_max: "100mA"
+  rise_time_ns: 600
+  fall_time_ns: 50
+drive_formats: ["NRZ", "RO", "RZ", "SBH", "SBL", "SBC"]
+

@@ -1,0 +1,6 @@
+# requirements.txt
+PyQt5==5.15.9
+pandas==2.0.3
+openpyxl==3.1.2
+pyyaml==6.0.1
+pydantic==2.4.2  # 【新增】极其重要的数据校验库

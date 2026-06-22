@@ -1,0 +1,28 @@
+# ====== PROJECT SETUP METADATA ======
+project_name,STS8300_LB_RevA
+site_num,4
+schema_version,1.0
+default_package,0603
+default_voltage,50V
+default_tolerance,1%
+ate_platform,STS8300_A28D4
+component_overrides,"{'SOCKET_PATH': 'Sch_lib/sockets/JW_Contator.kicad_sym', 'SOCKET_NAME': 'FTD_PP_25C_DFN4X4X0.75-10', 'GLOBAL_LDO': ''}"
+Hardware Config,c:\Users\11271\Desktop\Table2SCH\Sch_lib\platforms\sts8300_slot.xlsx
+
+# ====== PIN MAPPING ======
+Display Pin,Hidden F/S Mapping,Logical Net,Resource Types,Connect Type,Active Circuits,Passive Circuits (Parsed),Params
+eg:
+1F/S (PIN8_APWM5),"{'F': '1F', 'S': '1S'}",PIN8_APWM5,"ACM200, QTMUe",Relay,OPA145_INA141,[],"{""OPA145_INA141"": {""ROLE_CB"": ""IN+ (正端)"", ""GROUP_ID"": ""AMP_G1""}, ""QTMUe"": {""GROUP_ID"": ""QTMU_G1"", ""QTMU_PATH"": ""A (路径A)""}}"
+
+# ====== PARAM DICTIONARY TEMPLATE ======
+Module_Category,Module_Name,Parameter_Key,Input_Type,Description,Example_Placeholder
+LDO Power,TPS78401,OUTPUT_NET,Text,输出电源网络 (生成此网络供其他模块调用),+3.3V_ANA
+LDO Power,TPS78401,GROUP_ID,Text,实例化组号,LDO_1
+OpAmp,OPA145_INA141,ROLE_CB,Dropdown,接入端角色 (正端/负端),IN+/- (正/负端)
+OpAmp,OPA145_INA141,GROUP_ID,Text,共享模块组号 (必填用于MUX分组),AMP_1
+OpAmp,OPA145_INA141,VCC_NET,Text,模块正电源 (填入LDO配置的输出网络),+3.3V_ANA
+Time Measurement,"QTMUe, HPSM",QTMU_PATH,Dropdown,QTMU/HPSM 测量路径 (路径A/路径B),A/B (路径A/B)
+Time Measurement,"QTMUe, HPSM",GROUP_ID,Text,配对组号 (同组引脚将复用同一母线),QTMU_Pair_1
+ATE Resources,"FPVIe, FXVIe, ACM200, DCM, HPSM",GROUP_ID,Text,物理通道复用组 (同组将只占用1个物理通道),FPVIe_Group1
+General Logic/Buffer,"ChargeRelease, BUF634A_SOP8, OPA189, SN74LVC2G17DBVR",GROUP_ID,Text,共享模块组号,BUF_1
+General Logic/Buffer,"ChargeRelease, BUF634A_SOP8, OPA189, SN74LVC2G17DBVR",VCC_NET,Text,模块正电源,+5V_VDD

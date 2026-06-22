@@ -1,0 +1,125 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "20895e6e-7f94-43f0-9eca-30600a506dfc")
+	(paper "A3")
+	(symbol
+		(lib_id "JW_Component:CAP_SM_0805_1")
+		(at 213.36 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a81d5a2f-86e5-4913-aa5f-202fff792a7d")
+		(property "Reference" "@C1@"
+			(at 213.36 105.41 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Value" "@VALUE@"
+			(at 213.36 109.22 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Footprint" "CAP_SM_0805_1"
+			(at 213.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 5% SMD 0805 NP0 Ceramic"
+			(at 213.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26d9b1ba-1c6b-4292-97ae-903c6a964d3b")
+		)
+		(pin "1"
+			(uuid "f74b2d7b-1479-4d04-96ba-9f082f26fdb2")
+		)
+		(instances
+			(project "STS8300_LB_RevA_Master"
+				(path ""
+					(reference "@C1@")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 200.66 113.03) (xy 208.28 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63fc10b-07eb-4f1f-894d-5a6000556326")
+	)
+	(wire
+		(pts
+			(xy 218.44 113.03) (xy 224.79 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8123ce8-52ba-4ccb-930e-7ea3c312633b")
+	)
+	(global_label "@Pos_Pin@"
+		(shape input)
+		(at 200.66 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b8fafaf-b529-486f-933c-21f36c8ba4e9")
+	)
+	(global_label "@Neg_Pin@"
+		(shape input)
+		(at 224.79 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71286a04-02a4-4f3b-ae6f-cf6566347cd9")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

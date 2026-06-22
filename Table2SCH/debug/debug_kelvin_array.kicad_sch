@@ -1,0 +1,31 @@
+(kicad_sch
+    (version 20250114)
+    (generator "eeschema")
+    (generator_version "9.0")
+    (uuid "33792a96-3b59-4c02-8631-66c0b5180bdc")
+    (paper "A4")
+    (lib_symbols
+        ;; 测试时可保持为空，或填入你之前的 (symbol "JW_Component:DIODE_10L45A..." ) 等库定义
+    )
+    
+        (junction (at 138.43 73.66) (diameter 0) (color 0 0 0 0) (uuid "420df2b5-4da2-4f55-b950-1c08062ea0eb"))
+        (wire (pts (xy 82.55 39.37) (xy 82.55 46.99)) (stroke (width 0) (type default)) (uuid "3a5465ce-316c-4be5-ad32-0bf605f8e238"))
+        (global_label "CH1_Socket_F" (shape input) (at 64.77 66.04 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right)) (uuid "cb1195c9-ab71-41ba-b1d6-9891bb6da9c8"))
+        (symbol (lib_id "JW_Component:R_SM_0805_2") (at 148.59 60.96 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "a610ddfe-c1df-419b-8316-a4767f1e35a3")
+            (property "Reference" "R1_1" (at 148.59 53.34 0) (effects (font (size 1.8288 1.8288))))
+        )
+        ;; ... [此处省略了大量中间坐标信息，实际测试时请把你那段代码的内部组件全部粘贴于此] ...
+        
+        (junction (at 138.43 153.66) (diameter 0) (color 0 0 0 0) (uuid "8c340e40-6d03-4361-8e30-d02cd70f7845"))
+        (wire (pts (xy 82.55 119.37) (xy 82.55 126.99)) (stroke (width 0) (type default)) (uuid "5e68b9d5-cbfb-4402-83ee-34b1ea1e8248"))
+        (global_label "CH2_Socket_F" (shape input) (at 64.77 146.04 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right)) (uuid "784d4be0-a2a4-496f-b270-4bb8d71fa601"))
+        (symbol (lib_id "JW_Component:R_SM_0805_2") (at 148.59 140.96 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "040bbbfd-109d-4665-8c17-17072fa6f131")
+            (property "Reference" "R2_1" (at 148.59 133.34 0) (effects (font (size 1.8288 1.8288))))
+        )
+        ;; ... [此处省略了大量中间坐标信息，实际测试时请把你那段代码的内部组件全部粘贴于此] ...
+        
+    (sheet_instances
+        (path "/" (page "1"))
+    )
+)
+    

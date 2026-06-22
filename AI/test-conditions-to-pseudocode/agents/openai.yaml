@@ -1,0 +1,7 @@
+interface:
+  display_name: "Test Condition Pseudocode"
+  short_description: "Convert test-condition JSON into pseudocode JSON."
+  default_prompt: "Use $test-conditions-to-pseudocode to read a JSON file generated from a test-plan Excel workbook and convert each test condition into exchange-style pseudocode JSON."
+
+policy:
+  allow_implicit_invocation: true
